@@ -17,13 +17,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Microsoft Azure Virtual Machine
+- MySQl
+- PHP Manager
+- HeidiSQl
+- Rewrite Module
+- Microsoft Visual C++
 
 <h2>Installation Steps</h2>
+
+[This tutorial assumes you have already created a virtual machine (VM) in Azure. Instructions on creating a VM can be found HERE]
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

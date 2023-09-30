@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This guide will walk through the steps required to set up and install the open-source ticketing software, osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -18,15 +18,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Microsoft Azure Virtual Machine
-- MySQl
-- PHP Manager
-- HeidiSQl
-- Rewrite Module
-- Microsoft Visual C++
+- osTicket Installation Files: [Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- Heidi SQL
+
+<br/>
 
 <h2>Installation Steps</h2>
-
-[This tutorial assumes you have already created a virtual machine (VM) in Azure. Instructions on creating a VM can be found HERE]
 
 
 

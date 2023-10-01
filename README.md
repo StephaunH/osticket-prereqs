@@ -42,23 +42,43 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 **Step 2: Log into the VM using RDP**
 
 - Go to the VM resource and copy the Public IP Address
+
+<p>
 <img src="https://i.imgur.com/qLeyOD3.png"/>
-- Using Remote Desktop, paste the IP address
+</p>
+
+- Using Remote Desktop, paste the IP address and click "Connect"
+- Select "More choioces" and choose "Use a Different Account"
 - Sign in using the username and password for the VM
-- 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mavugz5.png">
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qYspkfU.png"/>
 </p>
+
+<br/>
+
+**Step 3: Configure IIS**
+
+- Open the Control Panel, select "Programs", then select "Turn Windows features on or off"
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/7Dxax4j.png">
 </p>
-<br />
+
+- Navigate to "Internet Information Services" and enable "Web Management Tolls" and "World Wide Web Services"
+- Expand "World Wide Web Services", then expand "Application Development Features" and enable "CGI"
+- Under "Common HTTP Features" make sure all options are enabled
+- Select "OK" and allow to install
+
+<p>
+<img src="https://i.imgur.com/U7sgsoW.png">
+</p>
+
+<p>
+<img src="https://i.imgur.com/mKDJYm1.png">
+</p>
+
+**Step 4: 

@@ -41,9 +41,11 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 
 **Step 2: Log into the VM using RDP**
 
-- CGo to the VM resource and copy the Public IP Address
+- Go to the VM resource and copy the Public IP Address
 <img src="https://i.imgur.com/qLeyOD3.png"/>
-- Open Remote Desktop and paste the IP address
+- Using Remote Desktop, paste the IP address
+- Sign in using the username and password for the VM
+- 
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

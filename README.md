@@ -25,10 +25,14 @@ This guide will walk through the steps required to set up and install the open-s
 
 <h2>Installation Steps</h2>
 
-
+**Step 1: Create a virtual machine in Microsoft Azure**
+(For a step-by-step guide on creating a virtual machine in Microsoft Azure, please refer to my guide [here](https://github.com/StephaunH/StephaunH/blob/main))
+- Create a resource group called "RG-osticket". Make sure to select the region nearest to you.
+- Create a virtual machine called "vm-osticket"
+  
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SM4nDyl.png"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

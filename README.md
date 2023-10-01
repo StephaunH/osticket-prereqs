@@ -81,4 +81,10 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <img src="https://i.imgur.com/mKDJYm1.png">
 </p>
 
-**Step 4: 
+**Step 4: Ensure IIS is properly installed**
+- In a web browser, search for "127.0.0.1"
+- You should be brought to a page that looks like this:
+
+<p>
+<img src="https://i.imgur.com/Y7Kq1uQ.png">
+</p>

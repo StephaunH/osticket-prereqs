@@ -81,10 +81,18 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <img src="https://i.imgur.com/mKDJYm1.png">
 </p>
 
-**Step 4: Ensure IIS is properly installed**
-- In a web browser, search for "127.0.0.1"
+- Ensure IIS is properly installed by searching for "127.0.0.1" in a web browser
 - You should be brought to a page that looks like this:
 
 <p>
 <img src="https://i.imgur.com/Y7Kq1uQ.png">
+</p>
+
+**Step 4: Install PHP Manager**
+
+- From the installation files provided in the prerequisites section, download PHP Manager (PHPManagerForIIS_V1.5.0.msi)
+- Select all default options and install
+
+<p>
+<img src="">
 </p>

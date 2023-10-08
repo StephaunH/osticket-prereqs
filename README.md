@@ -178,3 +178,19 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/4sHtSuh.png">
 </p>
+
+**Step 6: Install OSTicket**
+
+- Download osTicket from the installation files
+- Inside the zip file, locate the "Upload" folder
+
+<p>
+<img src="https://i.imgur.com/9hIvZZo.png">
+</p>
+
+- Right-click and copy
+- Paste into C:/inetpub/wwwroot
+
+<p>
+<img src="https://i.imgur.com/ltIWU6D.png">
+</p>

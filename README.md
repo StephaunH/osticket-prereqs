@@ -145,3 +145,30 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/9km3RCk.png">
 </p>
+
+**Step 5: Configure PHP Manager**
+
+- In the Start menu, search for "Internet Information Services" (or "IIS")
+- Run as administrator
+
+<p>
+<img src="https://i.imgur.com/zry0Dj9.png">
+</p>
+
+- Open PHP manager
+
+<p>
+<img src="https://i.imgur.com/8CMd8qS.png">
+</p>
+
+- Register new PHP version
+
+<p>
+<img src="https://i.imgur.com/NlPN7OD.png">
+</p>
+
+- Browse to the PHP folder created earlier and select the file "php-cgi"
+
+<p>
+<img src="https://i.imgur.com/EOhl7eb.png">
+</p>

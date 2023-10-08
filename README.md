@@ -102,3 +102,10 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/rzqXjIg.png">
 </p>
+
+- Download PHP (php-7.3.8-nts-Win32-VC15-x86.zip)
+- In File Explorer, create a folder called "PHP" in your main drive (default Windows(C:))
+
+<p>
+<img src="https://i.imgur.com/rVYJz1y.png">
+</p>

@@ -88,11 +88,17 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <img src="https://i.imgur.com/Y7Kq1uQ.png">
 </p>
 
-**Step 4: Install PHP Manager**
+**Step 4: Download and install prerequisites**
 
 - From the installation files provided in the prerequisites section, download PHP Manager (PHPManagerForIIS_V1.5.0.msi)
 - Open the file from its download location and install 
 
 <p>
-<img src="">
+<img src="https://i.imgur.com/hLlnJQR.png">
+</p>
+
+- Download and install the rewrite module (rewrite_amd64_en-US.msi)
+
+<p>
+<img src="https://i.imgur.com/rzqXjIg.png">
 </p>

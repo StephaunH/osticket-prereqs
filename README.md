@@ -254,8 +254,53 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 - Click "Add"
 - Toward the top of the window, click "Select a principal"
 - In the search box, type "Everyone", then click "Check Names", then "OK"
-- Check the box for "Full Control"
+- Check the box for "Full Control", then click "OK"
 
 <p>
 <img src="https://i.imgur.com/nBC33dg.png">
 </p>
+
+- Return to osTicket in the browser and click "Continue"
+- Fill in the information for osTicket System Settings and Admin User
+
+<p>
+<img src="https://i.imgur.com/nsWSvyT.png">
+</p>
+
+**Step 9: Install HeidiSQL**
+
+- Download and install HeidiSQL from the installation files
+
+<p>
+<img src="https://i.imgur.com/OuiuiyJ.png">
+</p>
+
+- Create a new session in Heidi using the root password you created during the installation of MySQL
+
+<p>
+<img src="https://i.imgur.com/9g47yM1.png">
+</p>
+
+- In the left panel, right-click and create a new database called "osTicket" and click "OK"
+
+<p>
+<img src="https://i.imgur.com/qQK9Onu.png">
+</p>
+
+
+<p>
+<img src="https://i.imgur.com/5xsnbZp.png">
+</p>
+
+**Step 10: Complete Installation**
+
+- Return to osTicket in the browser
+- Fill in the information under "Database Settings":
+- "MySQL Database" will be "osTicket"
+- "MySQL Username" will be "root"
+- "MySQL Password" will be the root password created when installing MySQL
+- Click "Install Now"
+
+**Congratulations! osTicket is now installed!**
+
+To login to osTicket, visit http://localhost/osTicket/scp/login.php and use the admin username and password created during osTicket installation 

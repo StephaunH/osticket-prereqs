@@ -68,7 +68,7 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <img src="https://i.imgur.com/7Dxax4j.png">
 </p>
 
-- Navigate to "Internet Information Services" and enable "Web Management Tolls" and "World Wide Web Services"
+- Navigate to "Internet Information Services" and enable "Web Management Tools" and "World Wide Web Services"
 - Expand "World Wide Web Services", then expand "Application Development Features" and enable "CGI"
 - Under "Common HTTP Features" make sure all options are enabled
 - Select "OK" and allow to install
@@ -91,7 +91,7 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 **Step 4: Install PHP Manager**
 
 - From the installation files provided in the prerequisites section, download PHP Manager (PHPManagerForIIS_V1.5.0.msi)
-- Select all default options and install
+- Open the file from its download location and install 
 
 <p>
 <img src="">

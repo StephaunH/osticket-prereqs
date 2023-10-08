@@ -125,3 +125,23 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
  <p>
  <img src="https://i.imgur.com/DIcxgDm.png">
  </p>
+
+- Download and install MySQLserver
+- Make sure the option to "Launch MySQL Instance Configuration Wizard" is checked
+
+<p>
+<img src="https://i.imgur.com/QsdOYFS.png">
+</p>
+
+- Select "Typical", then "Standard" configuration
+- Create a root password
+
+<p>
+<img src="https://i.imgur.com/v1cd0ov.png">
+</p>
+
+- Execute and finish configuartion
+
+<p>
+<img src="https://i.imgur.com/9km3RCk.png">
+</p>

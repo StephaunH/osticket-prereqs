@@ -172,3 +172,9 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/EOhl7eb.png">
 </p>
+
+- Refresh the server by right-clicking the VM in the left navigation bar and selecting "Refresh"
+
+<p>
+<img src="https://i.imgur.com/4sHtSuh.png">
+</p>

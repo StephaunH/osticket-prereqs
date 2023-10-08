@@ -194,3 +194,68 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/ltIWU6D.png">
 </p>
+
+- In the wwwroot folder, rename "Upload" to "osTicket"
+
+<p>
+<img src="https://i.imgur.com/DfIRtG3.png">
+</p>
+
+**Step 7: Enable osTicket Extnsions**
+
+- In the IIS window, expand "Sites", then "Default Web Site", and select the "osTicket" folder 
+- Select PHP Manager
+
+<p>
+<img src="https://i.imgur.com/OZnSAd2.png">
+</p>
+
+- Select "Enable or disable an extension"
+
+<p>
+<img src="https://i.imgur.com/Cso1Ne1.png">
+</p>
+
+- Enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll"
+
+<p>
+<img src="https://i.imgur.com/ibXcQTS.png">
+</p>
+
+- Navigate back to the osTicket folder in IIS and, in the right panel, select "Browse *:80(http)"
+
+<p>
+<img src="https://i.imgur.com/RRf7KFA.png">
+</p>
+
+- Make sure the extensions enabled match this example:
+
+<p>
+<img src="https://i.imgur.com/TfOtyMH.png">
+</p>
+
+**Step 8: Configure osTicket**
+
+- In File Explorer, navigate to C:/inetpub/wwwroot/osTicket/include and find the file "ost-sampleconfig.php"
+
+<p>
+<img src="https://i.imgur.com/7qOWuVO.png">
+</p>
+
+- Rename to "ost-config.php"
+- Right-click and select "Properties"
+- Go to the Security tab and click the "Advanced" button
+
+<p>
+<img src="https://i.imgur.com/8eH3Gdw.png">
+</p>
+
+- "Disable inheritance", then select "Remove all inherited permissions from this object"
+- Click "Add"
+- Toward the top of the window, click "Select a principal"
+- In the search box, type "Everyone", then click "Check Names", then "OK"
+- Check the box for "Full Control"
+
+<p>
+<img src="https://i.imgur.com/nBC33dg.png">
+</p>

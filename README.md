@@ -82,7 +82,7 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 </p>
 
 - Ensure IIS is properly installed by searching for "127.0.0.1" in a web browser
-- You should be brought to a page that looks like this:
+- The page should look like this:
 
 <p>
 <img src="https://i.imgur.com/Y7Kq1uQ.png">
@@ -109,3 +109,19 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 <p>
 <img src="https://i.imgur.com/rVYJz1y.png">
 </p>
+
+- Extract the PHP zip file (php-7.3.8-nts-Win32-VC15-x86.zip) into the new PHP folder
+
+<p>
+<img src="https://i.imgur.com/wwmh6w4.png">
+</p>
+
+<p>
+<img src="https://i.imgur.com/KuJoMBk.png">
+</p>
+
+- Download and install Microsoft Visual C++ Redistributable (VC_redist.x86.exe)
+
+ <p>
+ <img src="https://i.imgur.com/DIcxgDm.png">
+ </p>

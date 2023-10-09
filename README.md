@@ -301,6 +301,10 @@ For a step-by-step guide on creating a VM in Microsoft Azure, please refer to my
 - "MySQL Password" will be the root password created when installing MySQL
 - Click "Install Now"
 
+<p>
+<img src="https://i.imgur.com/qvB7E88.png">
+</p>
+
 **Congratulations! osTicket is now installed!**
 
 To login to osTicket, visit http://localhost/osTicket/scp/login.php and use the admin username and password created during osTicket installation 
